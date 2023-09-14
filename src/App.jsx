@@ -1,10 +1,21 @@
+// Libraries
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+
+// Components
+import { Home } from "./pages/Home"
+
+// Styles
 import "@/styles/index.scss"
 
 function App() {
 	return (
-		<main id="main">
-			<h1>Hello, World!</h1>
-		</main>
+		<BrowserRouter>
+			<main id="main">
+				<Routes>
+					<Route path="*" element={<Home />} />
+				</Routes>
+			</main>
+		</BrowserRouter>
 	)
 }
 
