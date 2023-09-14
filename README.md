@@ -1,14 +1,27 @@
-## React + Vite Boilerplate</strong>
+# React + Vite Boilerplate
 
 >  A boilerplate to make <strong>easier</strong> to start projects.
 
-<br/>
-Stack:
-<ul>
-    <li>React + Vite</li>
-    <li>Sass</li>
-    <li>React Router DOM</li>
-    <li>ESlint + Prettier</li>
-    <li>Husky</li>
-    <li>Commitlint</li>
-</ul>
+## Table of Contents
+
+- [Stack](#stack)
+- [Usage](#usage)
+
+## Stack
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [React Router DOM](https://reactrouter.com/)
+- [Sass](https://sass-lang.com/)
+- [Husky](https://typicode.github.io/husky/)
+- [Commitlint](https://commitlint.js.org/)
+- [ESlint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+
+## Usage
+Read the docs about how to use a boilerplate [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+
+### Run the project:
+```
+yarn dev
+```
+
